@@ -1,16 +1,26 @@
-* {
-  padding: 0px;
-  margin: 0px;
-}
-
+/* styles.css */
 body {
-  background-color: gainsboro;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
 }
 
-.title {
-  color:black;
-  font-size: 48px;
-  text-align: center;
-  margin: 40px;
+h1 {
+  color: #4CAF50;
+}
+
+li {
+  list-style: none;
+  margin: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
 }
